@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Stephen William G. De Jesus" />
+  <meta name="description" content="A simple interactive counter application with increment, decrement, and reset functionality." />
+  <meta name="keywords" content="Tailwind CSS, Counter App, Interactive UI, HTML, JavaScript" />
+  <meta name="robots" content="index, follow" />
+  <title>Counter App | Stephen William G. De Jesus</title>
+  <link rel="stylesheet" href="output.css" />
+</head>
+<body class="min-h-screen min-w-full flex flex-col justify-center items-center">
+  <main id="main-content" role="main" aria-label="Counter Application" class="flex flex-col justify-center items-center text-center gap-5 rounded-xl p-10">
+    <h1 id="counter-value" class="text-6xl text-gray-800" aria-live="polite">0</h1>
+    <div id="button-wrapper" class="flex justify-center items-center gap-2" role="group" aria-label="Counter controls">
+      <button
+        id="decrementBtn"
+        type="button"
+        class="select-none text-lg font-bold text-indigo-600 border-2 border-indigo-600 rounded-md px-4 flex justify-center items-center hover:text-white hover:bg-indigo-600 active:text-white active:bg-indigo-600 active:scale-90 transition cursor-pointer"
+        aria-label="Decrement counter"
+      >-</button>
+      <button
+        id="resetBtn"
+        type="button"
+        class="select-none text-lg font-semibold border-2 text-white bg-indigo-600 border-indigo-600 rounded-md px-4 flex justify-center items-center hover:text-indigo-600 hover:bg-white active:text-white active:bg-indigo-600 active:scale-90 transition cursor-pointer"
+        aria-label="Reset counter to zero"
+      >Reset</button>
+      <button
+        id="incrementBtn"
+        type="button"
+        class="select-none text-lg font-bold text-indigo-600 border-2 border-indigo-600 rounded-md px-4 flex justify-center items-center hover:text-white hover:bg-indigo-600 active:text-white active:bg-indigo-600 active:scale-90 transition cursor-pointer"
+        aria-label="Increment counter"
+      >+</button>
+    </div>
+  </main>
+
+  <script>
+    const counterValue = document.getElementById("counter-value");
+    const decrementBtn = document.getElementById("decrementBtn");
+    const resetBtn = document.getElementById("resetBtn");
+    const incrementBtn = document.getElementById("incrementBtn");
+
+    decrementBtn.onclick = function() {
+      counterValue.textContent = Number(counterValue.textContent) - 1;
+    };
+
+    incrementBtn.onclick = function() {
+      counterValue.textContent = Number(counterValue.textContent) + 1;
+    };
+
+    resetBtn.onclick = function() {
+      counterValue.textContent = 0;
+    };
+  </script>
+</body>
+</html>
