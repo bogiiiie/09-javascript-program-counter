@@ -10,18 +10,16 @@ Designed by **Stephen William G. De Jesus**, this app demonstrates real-time sta
 ## 📸 Preview
 
 ### 🎞️ Live Interaction (GIF)  
-<!-- Add your GIF to the images folder and update the path -->
 ![Counter App Animation](images/demo.gif)
 
 ### 🖼️ Full Page Screenshot  
-<!-- Add your screenshot to the images folder and update the path -->
 ![Counter App Screenshot](images/demo.png)
 
 ---
 
 ## 🌐 Live Demo
 
-[View Live Demo](https://yourusername.github.io/counter-app/) <!-- Replace with your GitHub Pages URL -->
+[View Live Demo](https://bogiiiie.github.io/01-javascript-program-counter/)
 
 ---
 
@@ -46,8 +44,16 @@ Designed by **Stephen William G. De Jesus**, this app demonstrates real-time sta
 ## 🚀 Getting Started
 
 To run this project locally:
-
-```bash
 git clone https://github.com/yourusername/counter-app.git
 cd counter-app
 open index.html
+
+👨‍💻 Author
+Created by Stephen William G. De Jesus
+
+---
+
+## 📄 License
+This project is licensed under the MIT License.
+
+---
