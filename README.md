@@ -19,7 +19,7 @@ Designed by **Stephen William G. De Jesus**, this app demonstrates real-time sta
 
 ## 🌐 Live Demo
 
-[View Live Demo](https://bogiiiie.github.io/01-javascript-program-counter/)
+[View Live Demo](https://bogiiiie.github.io/09-javascript-program-counter/)
 
 ---
 
@@ -44,9 +44,9 @@ Designed by **Stephen William G. De Jesus**, this app demonstrates real-time sta
 ## 🚀 Getting Started
 
 To run this project locally:
-git clone https://github.com/yourusername/counter-app.git
-cd counter-app
-open index.html
+1. git clone https://github.com/yourusername/09-javascript-program-counter.git
+2. cd counter-app
+3. open index.html
 
 👨‍💻 Author
 Created by Stephen William G. De Jesus
